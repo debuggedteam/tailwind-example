@@ -34,9 +34,9 @@ return (
                 <li>Textbook</li>
                 <li>Statistics</li>
                 <li>Games <svg width="9" height="6" viewBox="0 0 9 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0.812134 0.608887L4.27431 4.07126L7.73668 0.608887" stroke="#757575" stroke-width="1.6"/>
-</svg>
-</li>
+                <path d="M0.812134 0.608887L4.27431 4.07126L7.73668 0.608887" stroke="#757575" stroke-width="1.6"/>
+                </svg>
+                </li>
               </ul>
               <div className={styles.menuline}>
               </div>
@@ -99,7 +99,11 @@ return (
           <div className={styles.bannersection}>
             <h2 className={styles.bigHeading}>Learn a language in a playful way.</h2>
             <p className={styles.p}>Make learning words more fun with mini-games.</p>
-            <a href='' className={styles.primaryButton}>About platform</a>
+            <div>
+
+            <Image src="/img4.svg" alt="Vercel Logo" width={349} height={134} priority />
+            </div>
+            
           </div>
         </div>
       </div>
@@ -114,7 +118,7 @@ return (
             <a href='' className={styles.primaryButton}>Textbook →</a>
           </div>
           <div className={styles.bannerimg}>
-            <Image src="/img/image8.png" alt="Vercel Logo" width={580} height={445} priority />
+            <Image src="/img/img2.png" alt="Vercel Logo" width={580} height={473} priority />
           </div>
         </div>
       </div>
@@ -123,7 +127,7 @@ return (
       <div className={styles.container}>
         <div className={styles.rowbanner}>
         <div className={styles.bannerimg}>
-            <Image src="/img/image8.png" alt="Vercel Logo" width={580} height={445} priority />
+            <Image src="/img/img3.png" alt="Vercel Logo" width={680} height={409} priority />
           </div>
           <div className={styles.bannersection}>
             <h2 className={styles.bigHeading}>Watch your progress every day.</h2>
@@ -133,6 +137,38 @@ return (
         </div>
       </div>
     </div>
+    <footer>
+      <div className={styles.container}>
+      <div className={styles.innerheader}>
+          <div className={styles.leftsection}>
+     
+            <div className={styles.menuheader}>
+              <ul className={styles.footersection}>
+                <li>Home</li>
+                <li>Textbook</li>
+                <li>Statistics</li>
+                <li>Sprint</li>
+                <li>Audio-call</li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.rightsection}>
+            <div className={styles.logoutsection}>
+            <ul className={styles.menunav}>
+                <li>Alex</li>
+                <li>Gabriel</li>
+                <li>Marcus</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className={styles.footerimg}>
+            <Image src="/img/img4.png" alt="Vercel Logo" width={30} height={24} priority />           
+            <Image src="/img/gt.png" alt="Vercel Logo" width={30} height={24} priority />          
+            <Image src="/img/youtube.png" alt="Vercel Logo" width={25} height={17} priority />
+            </div>
+      </div>
+    </footer>
   </main>
 </>
 )
