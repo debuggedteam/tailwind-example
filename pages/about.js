@@ -137,7 +137,7 @@ return (
         </div>
       </div>
     </div>
-    <footer>
+    <footer className={styles.bottomsection}>
       <div className={styles.container}>
       <div className={styles.innerheader}>
           <div className={styles.leftsection}>
@@ -162,11 +162,20 @@ return (
             </div>
           </div>
         </div>
+        
+         <div className={styles.footerText}>
         <div className={styles.footerimg}>
-            <Image src="/img/img4.png" alt="Vercel Logo" width={30} height={24} priority />           
-            <Image src="/img/gt.png" alt="Vercel Logo" width={30} height={24} priority />          
-            <Image src="/img/youtube.png" alt="Vercel Logo" width={25} height={17} priority />
+          <div><Image src="/img/img4.png" alt="Vercel Logo" width={30} height={24} priority /></div>           
+            <div><Image src="/img/gt.png" alt="Vercel Logo" width={30} height={24} priority /></div>          
+           <div><Image src="/img/youtube.png" alt="Vercel Logo" width={25} height={17} priority /></div>
             </div>
+            <div>
+            <p>©2021 GlobalTalk. Project for GlobalTalk.</p>
+            </div>
+            </div>
+
+      
+
       </div>
     </footer>
   </main>
