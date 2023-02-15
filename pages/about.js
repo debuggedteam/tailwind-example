@@ -167,9 +167,9 @@ return (
         <div className={styles.footerimg}>
           <div><Image src="/img/img4.png" alt="Vercel Logo" width={30} height={24} priority /></div>           
             <div><Image src="/img/gt.png" alt="Vercel Logo" width={30} height={24} priority /></div>          
-           <div><Image src="/img/youtube.png" alt="Vercel Logo" width={25} height={17} priority /></div>
+           <div className={styles.icon}><Image src="/img/youtube.png" alt="Vercel Logo" width={25} height={17} priority /></div>
             </div>
-            <div>
+            <div className={styles.copyright}>
             <p>©2021 GlobalTalk. Project for GlobalTalk.</p>
             </div>
             </div>
