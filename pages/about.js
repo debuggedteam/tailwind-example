@@ -68,9 +68,13 @@ return (
           <div className={styles.bannersection}>
             <h2 className={styles.bigHeading}>Learn a language in a playful way.</h2>
             <p className={styles.p}>Make learning words more fun with mini-games.</p>
+            <div className={styles.logosvg}>
             <div>
-
-            <Image src="/img4.svg" alt="Vercel Logo" width={349} height={134} priority />
+              <Image src="/img2.svg" alt="Vercel Logo" width={158} height={129} priority />
+            </div>
+            <div>
+              <Image src="/img1.svg" alt="Vercel Logo" width={158} height={129} priority />
+            </div>
             </div>
             
           </div>
