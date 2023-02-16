@@ -25,10 +25,9 @@ return (
                 </Link>
                 <ul className={styles.submenu}>
                 <li>
-                <Link href="/">Test 1</Link>              
+                <Link href="/">Sprint →</Link>              
                 </li>
-                <li><Link href="/">Test</Link></li>
-                <li><Link href="/">Test 3</Link></li>
+                <li><Link href="/">Audio-call →</Link></li>     
                 </ul>
                 </li>
               </ul>
