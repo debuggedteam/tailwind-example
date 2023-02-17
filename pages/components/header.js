@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css'
 export default function Header() {
 return (
 <>
-<header>
+<header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.innerheader}>
           <div className={styles.leftsection}>
