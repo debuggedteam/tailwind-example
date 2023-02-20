@@ -770,8 +770,14 @@ header .innerheader {
 .bottomsection .logoutsection ul li{
   display: block;
 }
+.bottomsection .leftsection{
+  padding: 0 15px;
+}
+.logoutsection ul li{
+  padding: 8px;
+}
 .leftsection{
-  padding: 0 38px;
+  padding: 0 30px;
 }
 }
 
@@ -780,4 +786,11 @@ header .innerheader {
   left: 45px;
 }
 }
+
+@media (min-width: 320px){
+  .username1 { 
+    display: none;
+  }
+}
+
 
