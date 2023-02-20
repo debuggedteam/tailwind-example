@@ -156,8 +156,7 @@ color: #000000;
   position: relative;
   justify-content: space-between;
   width: 57%;
-  margin-top: 20px;
-  left: 40px;   
+  margin-top: 20px;  
 }
 
 .bannerStatsvg{
@@ -440,6 +439,83 @@ padding-left: 0;
 }
 
 /* Mobile */
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
+
+  .logo,
+  .thirteen img {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width:1024px) {
+
+  .container {
+    width: 80%;
+  }
+
+.bannersection{
+  width: 100%;
+}
+
+.bannerimg img {
+  width: 380px;
+  height: auto;
+  margin-top: 34px;
+}
+.footerimg{
+  gap: 10px;
+  justify-content: center;
+}
+
+.footerText{
+  display: block;
+}
+}
+
+@media only screen and (max-width:768px) {
+  .bigHeading{
+    font-size: 36px;
+    font-weight: 400px;
+  }
+  .p{
+    font-size: 15px;
+  }
+
+  .bannerStatsvg svg{
+    width: 82px;
+    height: 40px;
+    }
+    .bannersvg svg{
+      width: 68px;
+      height: 40px;
+     } 
+     .statline{
+      left: 135px;
+      top: 6px;
+      height: 32px;
+     }    
+}
+
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
@@ -516,84 +592,6 @@ padding-left: 0;
   }
 }
 
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
-    grid-template-columns: repeat(2, 50%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo,
-  .thirteen img {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
-
-
-@media only screen and (max-width:1024px) {
-
-  .container {
-    width: 80%;
-  }
-
-.bannersection{
-  width: 100%;
-}
-
-.bannerimg img {
-  width: 380px;
-  height: auto;
-  margin-top: 34px;
-}
-.footerimg{
-  gap: 10px;
-  justify-content: center;
-}
-
-.footerText{
-  display: block;
-}
-}
-@media only screen and (max-width:768px) {
-  .bigHeading{
-    font-size: 36px;
-    font-weight: 400px;
-  }
-  .p{
-    font-size: 15px;
-  }
-
-  .bannerStatsvg svg{
-    width: 82px;
-    height: 40px;
-    }
-    .bannersvg svg{
-      width: 68px;
-      height: 40px;
-     } 
-     .statline{
-      left: 135px;
-      top: 6px;
-      height: 32px;
-     }
-     .bannerStat{
-      left: 5px;
-        }
-}
 @media only screen and (max-width:580px) {
 
   .smallHeading{
@@ -626,16 +624,24 @@ padding-left: 0;
   flex-direction: column;
 }
 
+.bannerimg{
+  width: 100%;
+}
+
  .bannnerstatsvg svg{
   margin-right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
  }
+  .bannerStat{
+    left: 28px;
+  }
 
 .bannerimg img {
-  width: 370px;
+  width: 100%;
   height: auto;
+  margin: 0 auto;
   margin-top: 34px;
 }
 
@@ -688,6 +694,10 @@ header .innerheader {
 .logosvg{
   display: flex;
   gap: 20px;
+}
+ 
+.logosvg img{
+  width: 100%;
 }
 
 .submenu {
